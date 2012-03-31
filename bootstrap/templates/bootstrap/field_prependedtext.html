@@ -1,7 +1,7 @@
 <div class="control-group{% if errors %} error{% endif %}">
   <label class="control-label" for="{{ bf_raw.id_for_label }}">{{ label }}</label>
   <div class="controls">
-    <div class="input-append">
+    <div class="input-prepend">
       {{ bf }}
       {% if errors %}
         <span class="help-inline">{{ errors }}</span>
